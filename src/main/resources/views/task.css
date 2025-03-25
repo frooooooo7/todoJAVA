@@ -1,0 +1,31 @@
+.task-item {
+    -fx-background-color: #232838;
+    -fx-background-radius: 8;
+    -fx-padding: 12;
+    -fx-spacing: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 2, 0, 0, 1);
+}
+
+.task-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e0eaff;
+}
+
+.task-description {
+    -fx-font-size: 14px;
+    -fx-text-fill: #a0b2d8;
+}
+
+.task-date {
+    -fx-font-size: 12px;
+    -fx-text-fill: #8898b9;
+}
+
+.task-completed {
+    -fx-opacity: 0.7;
+}
+
+.task-completed .task-title {
+    -fx-strikethrough: true;
+}

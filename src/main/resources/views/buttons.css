@@ -1,0 +1,35 @@
+.edit-button {
+    -fx-background-color: #2E7D32;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-padding: 5 10;
+    -fx-font-size: 13px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 0, 0, 1);
+}
+
+.edit-button:hover {
+    -fx-background-color: #4CAF50;
+    -fx-cursor: hand;
+}
+
+.edit-button:pressed {
+    -fx-background-color: #1B5E20;
+}
+
+.delete-button {
+    -fx-background-color: #C62828;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-padding: 5 10;
+    -fx-font-size: 13px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 0, 0, 1);
+}
+
+.delete-button:hover {
+    -fx-background-color: #F44336;
+    -fx-cursor: hand;
+}
+
+.delete-button:pressed {
+    -fx-background-color: #B71C1C;
+}

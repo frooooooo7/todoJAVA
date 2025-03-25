@@ -1,0 +1,93 @@
+#sortByDateButton, #filterComboBox {
+    -fx-background-color: #232838;
+    -fx-text-fill: #a0b2d8;
+    -fx-background-radius: 5;
+    -fx-font-size: 13px;
+    -fx-border-color: #3b6fcb;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+    -fx-pref-height: 30;
+    -fx-min-height: 30;
+    -fx-max-height: 30;
+    -fx-padding: 0 10;
+    -fx-alignment: center;
+}
+
+#sortByDateButton:hover, #filterComboBox:hover {
+    -fx-background-color: #2a304a;
+    -fx-cursor: hand;
+    -fx-border-color: #4b7ad5;
+}
+
+#sortByDateButton:pressed {
+    -fx-background-color: #1a1f2c;
+}
+
+#filterComboBox {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+#filterComboBox > .box-base > .arrow-button {
+    -fx-padding: 0 5 0 0;
+}
+
+#filterComboBox .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #a0b2d8;
+    -fx-padding: 0 0 0 5;
+    -fx-alignment: center-left;
+}
+
+#filterComboBox .list-view .list-cell {
+    -fx-background-color: #232838;
+    -fx-text-fill: #a0b2d8;
+    -fx-padding: 5 10;
+}
+
+#filterComboBox .list-view .list-cell:hover {
+    -fx-background-color: #2a304a;
+    -fx-text-fill: #e0eaff;
+}
+
+#filterComboBox .list-view .list-cell:selected {
+    -fx-background-color: #3b6fcb;
+    -fx-text-fill: white;
+}
+
+#filterComboBox .list-view {
+    -fx-background-color: #232838;
+    -fx-border-color: #3b6fcb;
+    -fx-border-radius: 3;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 2);
+}
+
+#filterComboBox .arrow-button {
+    -fx-background-color: transparent;
+}
+
+#filterComboBox .arrow {
+    -fx-background-color: #a0b2d8;
+}
+
+#sortByDateButton.active {
+    -fx-background-color: #3b6fcb;
+    -fx-text-fill: white;
+    -fx-border-color: #4b7ad5;
+}
+
+#previousDayButton, #nextDayButton, #menuButton {
+    -fx-min-height: 30;
+    -fx-pref-height: 30;
+    -fx-max-height: 30;
+}
+
+.top-header-container {
+    -fx-alignment: center;
+}
+
+#navigationLabel {
+    -fx-alignment: center;
+    -fx-min-height: 30;
+    -fx-pref-height: 30;
+}

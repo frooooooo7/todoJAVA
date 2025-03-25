@@ -1,0 +1,165 @@
+.root {
+    -fx-font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.task-item {
+    -fx-background-color: #232838;
+    -fx-background-radius: 8;
+    -fx-padding: 12;
+    -fx-spacing: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 2, 0, 0, 1);
+}
+
+.task-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e0eaff;
+}
+
+.task-description {
+    -fx-font-size: 14px;
+    -fx-text-fill: #a0b2d8;
+}
+
+.task-date {
+    -fx-font-size: 12px;
+    -fx-text-fill: #8898b9;
+}
+
+.task-completed {
+    -fx-opacity: 0.7;
+}
+
+.task-completed .task-title {
+    -fx-strikethrough: true;
+}
+
+.root {
+    -fx-font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.task-item {
+    -fx-background-color: #232838;
+    -fx-background-radius: 8;
+    -fx-padding: 12;
+    -fx-spacing: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 2, 0, 0, 1);
+}
+
+.task-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e0eaff;
+}
+
+.task-description {
+    -fx-font-size: 14px;
+    -fx-text-fill: #a0b2d8;
+}
+
+.task-date {
+    -fx-font-size: 12px;
+    -fx-text-fill: #8898b9;
+}
+
+.task-completed {
+    -fx-opacity: 0.7;
+}
+
+.task-completed .task-title {
+    -fx-strikethrough: true;
+}
+
+.edit-button {
+    -fx-background-color: #2E7D32;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-padding: 5 10;
+    -fx-font-size: 13px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 0, 0, 1);
+}
+
+.edit-button:hover {
+    -fx-background-color: #4CAF50;
+    -fx-cursor: hand;
+}
+
+.edit-button:pressed {
+    -fx-background-color: #1B5E20;
+}
+
+.delete-button {
+    -fx-background-color: #C62828;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-padding: 5 10;
+    -fx-font-size: 13px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 0, 0, 1);
+}
+
+.delete-button:hover {
+    -fx-background-color: #F44336;
+    -fx-cursor: hand;
+}
+
+.delete-button:pressed {
+    -fx-background-color: #B71C1C;
+}
+
+.check-box .box {
+    -fx-background-color: #232838;
+    -fx-border-color: #3b6fcb;
+    -fx-border-radius: 3;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #3b6fcb;
+}
+
+.dialog-pane {
+    -fx-background-color: #1a1f2c;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: #e0eaff;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #141824;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: #e0eaff;
+    -fx-font-weight: bold;
+}
+
+.dialog-pane .button {
+    -fx-background-color: #3b6fcb;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+}
+
+.dialog-pane .button:hover {
+    -fx-background-color: #4b7ad5;
+}
+
+.text-field, .text-area {
+    -fx-background-color: #232838;
+    -fx-text-fill: #e0eaff;
+    -fx-border-color: #3b6fcb;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.text-area .content {
+    -fx-background-color: #232838;
+}
+

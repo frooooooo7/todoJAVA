@@ -1,0 +1,17 @@
+.root {
+    -fx-font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.text-field, .text-area {
+    -fx-background-color: #232838;
+    -fx-text-fill: #e0eaff;
+    -fx-border-color: #3b6fcb;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.text-area .content {
+    -fx-background-color: #232838;
+}
